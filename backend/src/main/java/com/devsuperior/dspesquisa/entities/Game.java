@@ -13,7 +13,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.devsuperior.dspesquisa.entities.enums.Plataform;
+import com.devsuperior.dspesquisa.entities.enums.Platform;
 
 @Entity
 @Table(name = "tb_game")
@@ -24,7 +24,7 @@ public class Game implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    private Plataform platform;
+    private Platform platform;
 
     @ManyToOne
     @JoinColumn(name = "genre_id")
@@ -37,10 +37,10 @@ public class Game implements Serializable {
 
     }
 
-    public Game(Long id, String title, Plataform plataform, Genre genre) {
+    public Game(Long id, String title, Platform platform, Genre genre) {
         this.id = id;
         this.title = title;
-        this.platform = plataform;
+        this.platform = platform;
         this.genre = genre;
     }
 
@@ -60,12 +60,12 @@ public class Game implements Serializable {
         this.title = title;
     }
 
-    public Plataform getPlataform() {
+    public Platform getPlatform() {
         return platform;
     }
 
-    public void setPlataform(Plataform plataform) {
-        this.platform = plataform;
+    public void setPlataform(Platform platform) {
+        this.platform = platform;
     }
 
     public Genre getGenre() {
