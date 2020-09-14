@@ -1,9 +1,7 @@
 package com.devsuperior.dspesquisa.services;
 
 import java.time.Instant;
-import java.util.List;
 
-import com.devsuperior.dspesquisa.dto.GameDto;
 import com.devsuperior.dspesquisa.dto.RecordDto;
 import com.devsuperior.dspesquisa.dto.RecordInsertDto;
 import com.devsuperior.dspesquisa.entities.Game;

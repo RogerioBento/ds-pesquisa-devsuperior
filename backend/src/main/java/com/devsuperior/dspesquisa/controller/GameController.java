@@ -3,8 +3,6 @@ package com.devsuperior.dspesquisa.controller;
 import java.util.List;
 
 import com.devsuperior.dspesquisa.dto.GameDto;
-import com.devsuperior.dspesquisa.entities.Game;
-import com.devsuperior.dspesquisa.repositories.GameRepository;
 import com.devsuperior.dspesquisa.services.GameService;
 
 import org.springframework.beans.factory.annotation.Autowired;
