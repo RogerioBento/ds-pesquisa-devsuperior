@@ -6,7 +6,7 @@ import { formtDate } from "./helpers";
 import Pagination from "./pagination";
 import Filters from '../../components/filters'
 
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://ds-pesquisa-devsuperior.herokuapp.com";
 
 const Records = () => {
   const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
