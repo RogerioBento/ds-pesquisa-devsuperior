@@ -1,4 +1,5 @@
-<p align="center">This application allows users to share their most loved games with other people and see the ranking of the games.</p>
+<p align="center">This application allows users to share their most loved games with other people and see the ranking of the games.
+The credits for the app goes to DevSuperior week that provided the knowledge to creating this app.</p>
 
 <div align="center" >
   <img src="./github/bigGameWeb.gif" alt="demo-web" height="425">
